@@ -1,0 +1,6 @@
+use lista_de_tarefas;
+
+create table if not exists lista (
+	id int primary key auto_increment,
+    tarefa varchar(255)
+);
