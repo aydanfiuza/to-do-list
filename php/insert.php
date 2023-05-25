@@ -3,7 +3,7 @@
 
     $task = $_POST["task"];
 
-    if(!$conn->query("INSERT INTO lista (tarefa) VALUES ('$task')")) {
+    if (!$conn->query("INSERT INTO lista (tarefa) VALUES ('$task')")) {
         echo $conn->error;
     }
 

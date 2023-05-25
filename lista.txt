@@ -4,3 +4,9 @@ create table if not exists lista (
 	id int primary key auto_increment,
     tarefa varchar(255)
 );
+
+
+UPDATE EXEMPLO:
+
+UPDATE `lista_de_tarefas`.`lista` SET `situacao` = 'C' WHERE (`id` = '2');
+UPDATE `lista_de_tarefas`.`lista` SET `situacao` = 'C' WHERE (`id` = '1');

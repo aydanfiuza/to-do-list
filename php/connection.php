@@ -1,5 +1,5 @@
 <?php
-    $servername = "localhost:1360";
+    $servername = "localhost";
     $username = "root";
     $password = "";
     $db = "lista_de_tarefas";
